@@ -16,6 +16,9 @@ This directory contains key output artifacts from training a custom YOLOv8 model
 - **`results.png`**  
   Automatically generated visualization of key training metrics like precision, recall, mAP, loss values over epochs.
 
+- **`curves/`**  
+   Precision, recall, PR, and F1 score graphs.
+
 ##  Training Details
 
 - **Model**: YOLOv8 (medium size – `yolov8m`)
