@@ -4,7 +4,7 @@
 
 This repository provides a YOLOv8 model trained to detect **human heads in dense crowd scenes**. The model was trained using the [JHU-CROWD++](http://www.crowd-counting.com) dataset and can be used for research in areas such as crowd counting, surveillance, and crowd safety systems.
 
-> ⚠️ This repository only contains the trained model and inference scripts. The full stampede detection or crowd analysis pipeline is **not** included.
+> ⚠️ This repository only contains the trained model and inference scripts.
 
 ---
 
