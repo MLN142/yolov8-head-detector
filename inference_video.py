@@ -14,8 +14,7 @@ width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = cap.get(cv2.CAP_PROP_FPS)
 
-# Initialize video writer to save output with detections
-out = cv2.VideoWriter("output_video.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (width, height))
+
 
 # Process the video frame by frame
 while cap.isOpened():
@@ -40,14 +39,10 @@ while cap.isOpened():
     # Display the processed frame in a window
     cv2.imshow("YOLOv8 Head Detection", frame)
 
-    # Write the processed frame to the output video file
-    out.write(frame)
-
     # Break the loop if 'q' is pressed on the keyboard
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 # Release video objects and close all OpenCV windows
 cap.release()
-out.release()
 cv2.destroyAllWindows()
