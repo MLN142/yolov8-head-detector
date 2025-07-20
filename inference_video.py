@@ -1,6 +1,6 @@
 # Import required libraries
-from ultralytics import YOLO  # For loading and running the YOLOv8 model
-import cv2  # OpenCV for video processing and drawing
+from ultralytics import YOLO  
+import cv2  
 
 # Load trained YOLOv8 model (make sure best.pt is in the same directory)
 model = YOLO("best.pt") 
