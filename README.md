@@ -12,7 +12,7 @@ This repository provides a YOLOv8 model trained to detect **human heads in dense
 
 -  **Model**: YOLOv8m (medium)
 -  **Task**: Head detection in dense crowds
--  **Dataset**: JHU-CROWD++ (not included; see below)
+-  **Dataset**: JHU-CROWD++ (not included)
 -  **Output**: Bounding boxes around detected heads
 
 ---
