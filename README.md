@@ -1,4 +1,4 @@
-# yolov8-head-detector
+
 
 # YOLOv8 Head Detector (Trained on JHU-CROWD++)
 
