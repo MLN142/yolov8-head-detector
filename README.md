@@ -21,9 +21,10 @@ This repository provides a YOLOv8 model trained to detect **human heads in dense
 
 You can download the trained YOLOv8 model (`best.pt`) here:
 
-👉 [Download best.pt from Google Drive]([https://drive.google.com/uc?id=YOUR_FILE_ID&export=download](https://drive.google.com/file/d/1iJgboSWPoxVHO8VyPwHEwXBJ5h5tearu/view?usp=sharing))
+👉 [Download best.pt from Google Drive](https://drive.google.com/uc?id=1iJgboSWPoxVHO8VyPwHEwXBJ5h5tearu&export=download)
 
 Make sure to place the file in the appropriate directory before running inference.
+
 
 
 
